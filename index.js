@@ -5,4 +5,6 @@ app.get('/', (req, res) => {
     res.send({hi: 'there'});
 });
 
-app.listen(8080);
+app.listen(8080, (req, res) => {
+    console.log("Serves started!");
+});
