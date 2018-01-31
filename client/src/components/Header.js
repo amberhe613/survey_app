@@ -29,9 +29,9 @@ class Header extends Component {
                         to={this.props.auth ? '/surveys' : '/'}
                         className="left brand-logo"
                     >
-                        SurveyStar
+                    SurveyStar
                     </Link>
-                    <ul id="nav-mobile" className="right hide-on-small-and-down">
+                    <ul id="nav-mobile" className="right">
                         {this.renderContent()}
                     </ul>
                 </div>
